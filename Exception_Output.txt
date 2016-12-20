@@ -1,0 +1,93 @@
+Android Crash
+
+************ APPLICATION NAME************
+
+Material Tabs(info.androidhive.materialtabs)
+
+************ Crash log Time ************
+
+Thu 2016.06.23 at 03:51:48 pm IST
+
+************  ERROR CAUSE In************
+
+ContactScreenActivity
+
+************ CAUSE OF ERROR ************
+
+java.lang.ClassCastException: android.widget.RelativeLayout$LayoutParams cannot be cast to android.widget.FrameLayout$LayoutParams
+	at android.widget.FrameLayout.onMeasure(FrameLayout.java:455)
+	at android.view.View.measure(View.java:17764)
+	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5620)
+	at android.widget.FrameLayout.onMeasure(FrameLayout.java:454)
+	at custom.swipemenulistview.SwipeMenuLayout.onMeasure(SwipeMenuLayout.java:311)
+	at android.view.View.measure(View.java:17764)
+	at android.widget.ListView.setupChild(ListView.java:1969)
+	at android.widget.ListView.makeAndAddView(ListView.java:1892)
+	at android.widget.ListView.fillDown(ListView.java:705)
+	at android.widget.ListView.fillFromTop(ListView.java:766)
+	at android.widget.ListView.layoutChildren(ListView.java:1676)
+	at android.widget.AbsListView.onLayout(AbsListView.java:2222)
+	at android.view.View.layout(View.java:15900)
+	at android.view.ViewGroup.layout(ViewGroup.java:5103)
+	at android.widget.RelativeLayout.onLayout(RelativeLayout.java:1190)
+	at android.view.View.layout(View.java:15900)
+	at android.view.ViewGroup.layout(ViewGroup.java:5103)
+	at android.support.v4.view.ViewPager.onLayout(ViewPager.java:1627)
+	at android.view.View.layout(View.java:15900)
+	at android.view.ViewGroup.layout(ViewGroup.java:5103)
+	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1954)
+	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1808)
+	at android.widget.LinearLayout.onLayout(LinearLayout.java:1717)
+	at android.view.View.layout(View.java:15900)
+	at android.view.ViewGroup.layout(ViewGroup.java:5103)
+	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:628)
+	at android.widget.FrameLayout.onLayout(FrameLayout.java:563)
+	at android.view.View.layout(View.java:15900)
+	at android.view.ViewGroup.layout(ViewGroup.java:5103)
+	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1954)
+	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1808)
+	at android.widget.LinearLayout.onLayout(LinearLayout.java:1717)
+	at android.view.View.layout(View.java:15900)
+	at android.view.ViewGroup.layout(ViewGroup.java:5103)
+	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:628)
+	at android.widget.FrameLayout.onLayout(FrameLayout.java:563)
+	at android.view.View.layout(View.java:15900)
+	at android.view.ViewGroup.layout(ViewGroup.java:5103)
+	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1954)
+	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1808)
+	at android.widget.LinearLayout.onLayout(LinearLayout.java:1717)
+	at android.view.View.layout(View.java:15900)
+	at android.view.ViewGroup.layout(ViewGroup.java:5103)
+	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:628)
+	at android.widget.FrameLayout.onLayout(FrameLayout.java:563)
+	at android.view.View.layout(View.java:15900)
+	at android.view.ViewGroup.layout(ViewGroup.java:5103)
+	at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:2420)
+	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2126)
+	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1251)
+	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6438)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:795)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:598)
+	at android.view.Choreographer.doFrame(Choreographer.java:567)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:781)
+	at android.os.Handler.handleCallback(Handler.java:810)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:189)
+	at android.app.ActivityThread.main(ActivityThread.java:5530)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:950)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:745)
+
+************ DEVICE INFORMATION ***********
+Brand: Micromax
+Device: Q372
+Model: Micromax Q372
+Id: LRX21M
+Product: Q372
+
+************ FIRMWARE ************
+SDK: 21
+Release: 5.0
+Incremental: 1427680573
+
