@@ -1,0 +1,28 @@
+ExceptionHandler (android)
+1.How To use ?
+
+i) Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler(this));
+
+*code should be above setContentView(R.layout.<ur_layout>).
+
+ii) <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+*ADD Permission in Manifest 
+
+2.How it works?
+
+It will catch the All Type of Exception Preventing from crash and redirect to previous activity, store all crash Detail with phone firmware,memory detail and store in download folder with Androidcrash(date).txt
+
+
+
+Exceptionhandler Crash log
+
+
+By - 
+Subham ku Naik
+Bismita rath
+Satyam Ku Naik
+
+
+
+
